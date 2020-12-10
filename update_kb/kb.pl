@@ -1,8 +1,10 @@
-:- dynamic test_kb/3.
+:- dynamic id_ergazomenwn/1,ergazomenos/2.
 
-test_kb(test1, test2, 28282828).
-test_kb(aaa, bbb, 121212).
-test_kb(ccc, ddd, 123123).
-test_kb(abc, dfg, 123).
-test_kb(fasoli, kourampies, 12323523412412).
+% Lista me ta id twn ergazomenwn
+id_ergazomenwn([1,2,3,4]).
+% ergazomenos(ID,[FullName,profession,Phone,[tasks]])
+ergazomenos(1,[m_fasolis, it, 123,[taska,taskb]]).
+ergazomenos(2,[g_revithis, ac, 456,[taskc,taskd]]).
+ergazomenos(3,[k_fakis, pm, 789,[taska,taskb,taskc,taskd]]).
+ergazomenos(4,[l_arakas, it, 111,[taskb,taskd]]).
 
